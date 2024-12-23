@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-
+import logo from '../public/images/Logos.svg'
 function App() {
   return (
     <div>
@@ -39,7 +39,7 @@ function App() {
 
         <div className="future">
           <h4>Trusted By Over 100+ Startups and freelance business</h4>
-         <img className="image" src="/images/Logos.svg" alt="rasm" />
+         <img className="image" src={logo} alt="rasm" />
          <h2 className="future-text">Believing neglected so so allowance</h2>
          <p className="descripsion">We so opinion friends me message as delight. Whole front do of <br /> plate heard oh ought. His defective nor convinced residence own.</p>
          <button className="future-btn">We so opinion friends me message as delight.</button>

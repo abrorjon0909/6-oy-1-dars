@@ -196,9 +196,9 @@ color: #64607D;
 }
 
 .future-btn:hover {
-  background-color: aquamarine;
+  background-color: white;
   color: black;
-  border: 8px solid black;
+  border: 8px solid aquamarine;
 }
 
 .card {
